@@ -26,6 +26,10 @@ h2{
     background-image: linear-gradient(to right, var(--cor1), var(--cor2), transparent);
 }
 
+h3{
+    margin: 5px;
+}
+
 header{
     background-color: var(--cor1);
     text-align: center;
@@ -81,6 +85,14 @@ a:hover {
 .item{
     margin: 15px;
 }
+.menu{
+    text-align: justify;  
+
+}
+.menu > p {
+    text-indent: 10px;
+    
+}
 
 main{
     min-width: 300px;
@@ -95,5 +107,33 @@ main{
 
 main > p {
     text-indent: 30px;
+    
+}
+
+article{
+    background-color: rgb(207, 207, 207);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+article > p {
+    text-indent: 30px;
     margin-top: 5px;
+}
+footer{
+    margin: 10px;
+    text-align: center;
+    background-color: var(--cor1);
+    color: white;
+    font-size: bold;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    font-weight: 1.2em;
+}
+footer > p > a:hover {
+    color: white;
+    
+    
+
 }
