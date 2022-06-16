@@ -25,6 +25,7 @@ h2{
     color: var(--cor0);
     background-image: linear-gradient(to right, var(--cor1), var(--cor2), transparent);
     border-radius: 10px;
+    min-width: 700px;
 }
 
 h3{
