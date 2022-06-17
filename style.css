@@ -21,11 +21,12 @@ body{
 }
 
 h2{
+    text-align: left;
     padding: 5px;
     color: var(--cor0);
     background-image: linear-gradient(to right, var(--cor1), var(--cor2), transparent);
     border-radius: 10px;
-    min-width: 700px;
+    min-width: 100%;
 }
 
 h3{
@@ -104,8 +105,7 @@ main{
     margin-bottom: 30px;
     padding: 20px;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    border-radius: 10px;
+    
     }
 
 main > p {
@@ -141,7 +141,7 @@ footer > p > a:hover {
     
 
 }
-.ford{
+img{
     width: 50%;
      display: block;
     margin: auto;
